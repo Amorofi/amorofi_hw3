@@ -7,6 +7,7 @@
         <th>Books Title</th>
         <th>Publication date</th>
         <th>Author ID</th>
+        <th></th>
       </tr>
     </thead>
     <tbody>
@@ -18,6 +19,7 @@
           <td><?php echo $book['title']; ?></td>
           <td><?php echo $book['publication_date']; ?></td>
           <td><?php echo $book['author_id']; ?></td>
+          <td><a href= "books-by-customer.php?id=<?php echo $book['books_id']; ?>; ?>">Books</a></td>
         </tr>
       <?php
       }
