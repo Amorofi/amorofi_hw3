@@ -26,11 +26,9 @@
           <a class="nav-link" href="books.php">Books</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="customers.php">Customers</a>
+          <a class="nav-link" href="books-by-orders.php">Books by orders</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="orders.php">Orders</a>
-        </li>
+
       </ul>
     </div>
   </div>
