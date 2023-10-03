@@ -16,7 +16,7 @@
         <tr>
           <td><?php echo $customer['customer_id']; ?></td>
           <td><?php echo $customer['customers_name']; ?></td>
-          <td><?php echo $customer['emal']; ?></td>
+          <td><?php echo $customer['email']; ?></td>
           <td><?php echo $customer['phone']; ?></td>
         </tr>
       <?php
