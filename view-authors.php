@@ -12,14 +12,14 @@
       <tbody>
 <?php
 while($authors = $authors->fetch_assoc()) {
-  ?>
+ ?>
   <tr>
     <td><?php echo $authors['authors_id']; ?></td>
     <td><?php echo $authors['authors_name']; ?></td>
     <td><?php echo $authors['birth_date']; ?></td>
     <td><?php echo $authors['nationality']; ?></td>
   </tr>
-  <?php
+<?php
 }
 ?>
       </tbody>
