@@ -11,7 +11,7 @@
       </thead>
       <tbody>
 <?php
-while($authors = $authors->fetch_assoc()) {
+while ($authors = $authors->fetch_assoc()) {
  ?>
   <tr>
     <td><?php echo $authors['authors_id']; ?></td>
