@@ -26,7 +26,10 @@
           <a class="nav-link" href="books.php">Books</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="authors-with-books.php">Authors with books</a>
+          <a class="nav-link" href="customers.php">Customers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="orders.php">Orders</a>
         </li>
       </ul>
     </div>
