@@ -4,20 +4,20 @@
     <thead>
       <tr>
         <th>ID</th>
-        <th>Title</th>
+        <th>Books Title</th>
         <th>Publication date</th>
         <th>Author ID</th>
       </tr>
     </thead>
     <tbody>
       <?php
-      while ($books = $books->fetch_assoc()) {
+      while ($book = $books->fetch_assoc()) {
       ?>
         <tr>
-          <td><?php echo $books['books_id']; ?></td>
-          <td><?php echo $books['title']; ?></td>
-          <td><?php echo $books['publication_date']; ?></td>
-          <td><?php echo $books['author_id']; ?></td>
+          <td><?php echo $book['books_id']; ?></td>
+          <td><?php echo $book['title']; ?></td>
+          <td><?php echo $book['publication_date']; ?></td>
+          <td><?php echo $book['author_id']; ?></td>
         </tr>
       <?php
       }
