@@ -18,6 +18,7 @@
           <td><?php echo $customer['customers_name']; ?></td>
           <td><?php echo $customer['email']; ?></td>
           <td><?php echo $customer['phone']; ?></td>
+          <td><a href= "customer-by-books.php?id=<?php echo $customers['customer_id']; ?>; ?>">Customers</a></td>
         </tr>
       <?php
       }
