@@ -4,10 +4,9 @@
     <thead>
       <tr>
         <th>ID</th>
-        <th>Books Title</th>
-        <th>Publication date</th>
-        <th>Author ID</th>
-        <th>orders Date</th>
+        <th>Customers </th>
+        <th>Emails</th>
+        <th>Phone Number</th>
 
       </tr>
     </thead>
