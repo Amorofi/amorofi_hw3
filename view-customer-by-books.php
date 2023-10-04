@@ -15,11 +15,10 @@
       while ($book = $books->fetch_assoc()) {
       ?>
         <tr>
-          <td><?php echo $book['books_id']; ?></td>
-          <td><?php echo $book['title']; ?></td>
-          <td><?php echo $book['publication_date']; ?></td>
-          <td><?php echo $book['author_id']; ?></td>
-          <td><?php echo $book['orders_date']; ?></td>
+          <td><?php echo $customer['customer_id']; ?></td>
+          <td><?php echo $customer['customers_name']; ?></td>
+          <td><?php echo $customer['email']; ?></td>
+          <td><?php echo $customer['phone']; ?></td>
         </tr>
       <?php
       }
